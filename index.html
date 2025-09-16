@@ -5,11 +5,300 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoderHub.run</title>
+    <link rel="icon" type="image/x-icon" href="img/CoderHubLogo.png">
     <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
 
+    <nav class="barra-navegacion navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="contenedor-navbar container">
+            <a class="marca-navegacion navbar-brand d-flex align-items-center" href="#">
+                <img src="img/CoderHubLogo.png" alt="Logo CoderHub" width="40" height="40" class="margen-derecho me-2">
+                <img src="img/CoderHubText.png" alt="Texto CoderHub" height="40">
+            </a>
+
+            <button class="boton-navegacion navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false"
+                aria-label="Alternar navegación">
+                <span class="icono-navegacion navbar-toggler-icon"></span>
+            </button>
+            <div class="colapso-navegacion collapse navbar-collapse" id="menuNavegacion">
+                <ul class="lista-navegacion navbar-nav ms-auto">
+                    <li class="elemento-navegacion nav-item">
+                        <a class="enlace-navegacion nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="elemento-navegacion nav-item">
+                        <a class="enlace-navegacion nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="elemento-navegacion nav-item">
+                        <a class="enlace-navegacion nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="elemento-navegacion nav-item">
+                        <a class="enlace-navegacion nav-link" href="#footer">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner-principal bg-primary text-white py-5">
+        <div class="contenedor-banner container text-center">
+            <h1 class="titulo-banner display-4 fw-bold">Bienvenido a CoderHub</h1>
+            <p class="descripcion-banner lead mb-4">Tu comunidad para aprender, compartir y crecer en el mundo de la
+                programación.</p>
+            <a href="#contacto" class="boton-banner btn btn-light btn-lg fw-bold">Contáctanos</a>
+        </div>
+    </section>
+
+    <section class="seccion-eslogan py-5">
+        <div class="contenedor-eslogan container text-center">
+            <h2 class="titulo-eslogan mb-3">¡Conectando mentes creativas!</h2>
+            <p class="descripcion-eslogan fs-5">En CoderHub impulsamos el aprendizaje colaborativo y la innovación
+                tecnológica.</p>
+        </div>
+    </section>
+
+    <section id="portafolio" class="seccion-portafolio py-5">
+        <div class="contenedor-portafolio container">
+            <div class="fila-titulo-portafolio row mb-4">
+                <div class="columna-titulo-portafolio col text-center">
+                    <h2 class="titulo-portafolio fw-bold">Portafolio</h2>
+                    <p class="descripcion-portafolio mt-3">Algunos de nuestros proyectos destacados realizados por el
+                        equipo de CoderHub.</p>
+                </div>
+            </div>
+            <div class="fila-proyectos row g-4">
+                <div class="columna-proyecto col-md-6 col-lg-3">
+                    <div class="tarjeta-proyecto card h-100 shadow-sm animate__animated animate__fadeInUp animate__fast">
+                        <img src="img/CoderHubLogo.png" class="imagen-proyecto card-img-top p-3" alt="Proyecto 1"
+                            style="height:140px;object-fit:contain;">
+                        <div class="cuerpo-proyecto card-body">
+                            <h5 class="titulo-proyecto card-title">Plataforma Educativa</h5>
+                            <p class="descripcion-proyecto card-text">Desarrollamos una plataforma interactiva para
+                                cursos en línea, con
+                                foros y seguimiento personalizado.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna-proyecto col-md-6 col-lg-3">
+                    <div class="tarjeta-proyecto card h-100 shadow-sm animate__animated animate__fadeInUp animate__fast">
+                        <img src="img/CoderHubText.png" class="imagen-proyecto card-img-top p-3" alt="Proyecto 2"
+                            style="height:140px;object-fit:contain;">
+                        <div class="cuerpo-proyecto card-body">
+                            <h5 class="titulo-proyecto card-title">App de Networking</h5>
+                            <p class="descripcion-proyecto card-text">Creamos una app móvil para conectar programadores
+                                y empresas,
+                                facilitando oportunidades laborales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna-proyecto col-md-6 col-lg-3">
+                    <div class="tarjeta-proyecto card h-100 shadow-sm animate__animated animate__fadeInUp animate__fast">
+                        <img src="img/CoderHub.png" class="imagen-proyecto card-img-top p-3" alt="Proyecto 3"
+                            style="height:140px;object-fit:contain;">
+                        <div class="cuerpo-proyecto card-body">
+                            <h5 class="titulo-proyecto card-title">Sistema de Gestión</h5>
+                            <p class="descripcion-proyecto card-text">Implementamos un sistema para la administración de
+                                proyectos y equipos
+                                de trabajo en tiempo real.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna-proyecto col-md-6 col-lg-3">
+                    <div class="tarjeta-proyecto card h-100 shadow-sm animate__animated animate__fadeInUp animate__fast">
+                        <img src="img/CoderHubLogo.png" class="imagen-proyecto card-img-top p-3" alt="Proyecto 4"
+                            style="height:140px;object-fit:contain;">
+                        <div class="cuerpo-proyecto card-body">
+                            <h5 class="titulo-proyecto card-title">Portal de Comunidad</h5>
+                            <p class="descripcion-proyecto card-text">Desarrollamos un portal web para compartir
+                                recursos, noticias y eventos
+                                entre programadores.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="seccion-nosotros py-5 bg-light">
+        <div class="contenedor-nosotros container">
+            <div class="fila-titulo-nosotros row mb-4">
+                <div class="columna-titulo-nosotros col text-center">
+                    <h2 class="titulo-nosotros fw-bold">Nosotros</h2>
+                    <p class="descripcion-nosotros mt-3">CoderHub nació en 2020 como una iniciativa de jóvenes
+                        apasionados por la tecnología
+                        y la educación. Desde entonces, hemos crecido hasta convertirnos en una comunidad vibrante que
+                        conecta programadores de todo el mundo para aprender, compartir y crear juntos.</p>
+                </div>
+            </div>
+            <div class="fila-mision row mb-4">
+                <div class="columna-mision col-md-4 text-center seccion-portafolio p-3 rounded-3">
+                    <h4 class="titulo-mision fw-bold">Misión</h4>
+                    <p class="texto-mision">Impulsar el desarrollo profesional y personal de los programadores mediante
+                        el aprendizaje
+                        colaborativo y el acceso a recursos innovadores.</p>
+                </div>
+                <div class="columna-vision col-md-4 text-center seccion-portafolio p-3 rounded-3">
+                    <h4 class="titulo-vision fw-bold">Visión</h4>
+                    <p class="texto-vision">Ser la comunidad líder en educación tecnológica, inspirando a miles de
+                        personas a transformar el
+                        mundo a través de la programación.</p>
+                </div>
+                <div class="columna-valores col-md-4 text-center seccion-portafolio p-3 rounded-3">
+                    <h4 class="titulo-valores fw-bold">Valores</h4>
+                    <p class="texto-valores">Colaboración, innovación, respeto, inclusión y pasión por el aprendizaje.
+                    </p>
+                </div>
+            </div>
+            <div class="fila-titulo-equipo row mb-4">
+                <div class="columna-titulo-equipo col text-center">
+                    <h3 class="titulo-equipo fw-bold mb-4">Nuestro Equipo</h3>
+                </div>
+            </div>
+            <div class="fila-perfiles row justify-content-center">
+                <div class="columna-perfil col-md-4 mb-4">
+                    <div class="tarjeta-perfil card h-100 shadow-sm">
+                        <img src="img/MichaelDeSanta.webp" class="imagen-perfil card-img-top" alt="Trevor">
+                        <div class="cuerpo-perfil card-body text-center">
+                            <h5 class="titulo-perfil card-title">Michael De Santa</h5>
+                            <p class="rol-perfil text-primary">CEO & Fundador</p>
+                            <p class="descripcion-perfil card-text">Visionario y líder apasionado, Michael fundó
+                                CoderHub
+                                para unir a los
+                                mejores talentos tecnológicos y fomentar la innovación global.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna-perfil col-md-4 mb-4">
+                    <div class="tarjeta-perfil card h-100 shadow-sm">
+                        <img src="img/TrevorPhilips.webp" class="imagen-perfil card-img-top" alt="Michael">
+                        <div class="cuerpo-perfil card-body text-center">
+                            <h5 class="titulo-perfil card-title">Trevor Phillips</h5>
+                            <p class="rol-perfil text-primary">desarrollo</p>
+                            <p class="descripcion-perfil card-text">Experto en desarrollo de software, Trevor lidera el
+                                área tecnológica
+                                asegurando la calidad y el crecimiento de la plataforma CoderHub.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna-perfil col-md-4 mb-4">
+                    <div class="tarjeta-perfil card h-100 shadow-sm">
+                        <img src="img/FranklinClinton.webp" class="imagen-perfil card-img-top" alt="Franklin">
+                        <div class="cuerpo-perfil card-body text-center">
+                            <h5 class="titulo-perfil card-title">Franklin Clinton</h5>
+                            <p class="rol-perfil text-primary">Community Manager</p>
+                            <p class="descripcion-perfil card-text">Franklin es el puente entre la comunidad y el
+                                equipo, promoviendo la
+                                participación y el crecimiento de los miembros de CoderHub.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="seccion-contacto seccion-portafolio py-5">
+        <div class="contenedor-contacto container">
+            <div class="fila-titulo-contacto row mb-4">
+                <div class="columna-titulo-contacto col text-center">
+                    <h2 class="titulo-contacto fw-bold">Contáctanos</h2>
+                    <p class="descripcion-contacto mt-3">¿Tienes dudas o quieres trabajar con nosotros? ¡Envíanos un
+                        mensaje!</p>
+                </div>
+            </div>
+            <div class="fila-formulario-mapa row g-4">
+                <div class="columna-formulario col-md-6">
+                    <form id="formulario-contacto" novalidate>
+                        <div class="grupo-formulario mb-3">
+                            <label for="nombre" class="etiqueta-formulario form-label">Nombre</label>
+                            <input type="text" class="campo-formulario form-control" id="nombre" name="nombre" required>
+                            <div class="retroalimentacion-invalida invalid-feedback">Por favor ingresa tu nombre.</div>
+                        </div>
+                        <div class="grupo-formulario mb-3">
+                            <label for="correo" class="etiqueta-formulario form-label">Correo</label>
+                            <input type="email" class="campo-formulario form-control" id="correo" name="correo"
+                                required>
+                            <div class="retroalimentacion-invalida invalid-feedback">Por favor ingresa un correo válido.
+                            </div>
+                        </div>
+                        <div class="grupo-formulario mb-3">
+                            <label for="asunto" class="etiqueta-formulario form-label">Asunto</label>
+                            <input type="text" class="campo-formulario form-control" id="asunto" name="asunto" required>
+                            <div class="retroalimentacion-invalida invalid-feedback">Por favor ingresa el asunto.</div>
+                        </div>
+                        <div class="grupo-formulario mb-3">
+                            <label for="mensaje" class="etiqueta-formulario form-label">Mensaje</label>
+                            <textarea class="campo-formulario form-control" id="mensaje" name="mensaje" rows="4"
+                                required></textarea>
+                            <div class="retroalimentacion-invalida invalid-feedback">Por favor ingresa tu mensaje.</div>
+                        </div>
+                        <button type="submit" class="boton-enviar btn btn-primary w-100">Enviar</button>
+                    </form>
+                </div>
+                <div class="mapa col-md-6">
+                    <div class="mapa-ubicacion ratio ratio-16x9 rounded shadow-sm overflow-hidden">
+                        <iframe src="https://www.google.com/maps?q=University+of+Amazonia,+Florencia&output=embed"
+                            allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Validación Bootstrap personalizada
+        document.getElementById('formulario-contacto').addEventListener('submit', function (event) {
+            var form = event.target;
+            if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+        });
+    </script>
+
+
+    <footer id="pie-pagina" class="bg-oscuro bg-dark text-blanco text-white py-4 mt-5">
+        <div class="contenedor-pie container">
+            <div class="fila-pie row align-items-center">
+                <div class="columna-contacto-pie col-md-6 mb-3 mb-md-0">
+                    <h5 class="titulo-contacto-pie fw-bold mb-2">Contacto</h5>
+                    <p class="telefono-contacto-pie mb-1"><i class="bi bi-telephone-fill me-2"></i>Tel: +57 300 123 4567
+                    </p>
+                    <p class="correo-contacto-pie mb-0"><i class="bi bi-envelope-fill me-2"></i>Email: info@coderhub.com
+                    </p>
+                </div>
+                <div class="columna-redes-pie col-md-6 text-md-end">
+                    <h5 class="titulo-redes-pie fw-bold mb-2">Síguenos</h5>
+                    <a href="#" class="enlace-red-social text-white me-3" title="Facebook"><i
+                            class="bi bi-facebook fs-4"></i></a>
+                    <a href="#" class="enlace-red-social text-white me-3" title="Twitter"><i
+                            class="bi bi-twitter fs-4"></i></a>
+                    <a href="#" class="enlace-red-social text-white me-3" title="Instagram"><i
+                            class="bi bi-instagram fs-4"></i></a>
+                    <a href="#" class="enlace-red-social text-white" title="LinkedIn"><i
+                            class="bi bi-linkedin fs-4"></i></a>
+                </div>
+            </div>
+            <div class="fila-copyright row mt-3">
+                <div class="columna-copyright col text-center">
+                    <small class="copyright">&copy; 2025 CoderHub. Todos los derechos reservados.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </body>
 
 </html>
