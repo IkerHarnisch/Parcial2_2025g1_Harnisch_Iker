@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoderHub.run</title>
+    <title>CoderHub</title>
     <link rel="icon" type="image/x-icon" href="img/CoderHubLogo.png">
     <link rel="stylesheet" href="css/styles.css">
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -39,7 +39,7 @@
                         <a class="enlace-navegacion nav-link" href="#nosotros">Nosotros</a>
                     </li>
                     <li class="elemento-navegacion nav-item">
-                        <a class="enlace-navegacion nav-link" href="#footer">Contacto</a>
+                        <a class="enlace-navegacion nav-link" href="#contacto-pie">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -48,7 +48,7 @@
 
     <section class="banner-principal bg-primary text-white py-5">
         <div class="contenedor-banner container text-center">
-            <h1 class="titulo-banner display-4 fw-bold">Bienvenido a CoderHub</h1>
+            <h1 class="titulo-banner display-4 fw-bold">Bienvenido a CoderHub.run</h1>
             <p class="descripcion-banner lead mb-4">Tu comunidad para aprender, compartir y crecer en el mundo de la
                 programación.</p>
             <a href="#contacto" class="boton-banner btn btn-light btn-lg fw-bold">Contáctanos</a>
@@ -74,9 +74,9 @@
             </div>
             <div class="fila-proyectos row g-4">
                 <div class="columna-proyecto col-md-6 col-lg-3">
-                    <div class="tarjeta-proyecto card h-100 shadow-sm animate__animated animate__fadeInUp animate__fast">
-                        <img src="img/CoderHubLogo.png" class="imagen-proyecto card-img-top p-3" alt="Proyecto 1"
-                            style="height:140px;object-fit:contain;">
+                    <div
+                        class="tarjeta-proyecto card h-100 shadow-sm animate__animated animate__fadeInUp animate__fast">
+                        <img src="img/PlatEdu.jpg" class="imagen-proyecto card-img-top p-3" alt="Proyecto 1">
                         <div class="cuerpo-proyecto card-body">
                             <h5 class="titulo-proyecto card-title">Plataforma Educativa</h5>
                             <p class="descripcion-proyecto card-text">Desarrollamos una plataforma interactiva para
@@ -86,9 +86,9 @@
                     </div>
                 </div>
                 <div class="columna-proyecto col-md-6 col-lg-3">
-                    <div class="tarjeta-proyecto card h-100 shadow-sm animate__animated animate__fadeInUp animate__fast">
-                        <img src="img/CoderHubText.png" class="imagen-proyecto card-img-top p-3" alt="Proyecto 2"
-                            style="height:140px;object-fit:contain;">
+                    <div
+                        class="tarjeta-proyecto card h-100 shadow-sm animate__animated animate__fadeInUp animate__fast">
+                        <img src="img/AppNetwork.jpg" class="imagen-proyecto card-img-top p-3" alt="Proyecto 2">
                         <div class="cuerpo-proyecto card-body">
                             <h5 class="titulo-proyecto card-title">App de Networking</h5>
                             <p class="descripcion-proyecto card-text">Creamos una app móvil para conectar programadores
@@ -98,9 +98,9 @@
                     </div>
                 </div>
                 <div class="columna-proyecto col-md-6 col-lg-3">
-                    <div class="tarjeta-proyecto card h-100 shadow-sm animate__animated animate__fadeInUp animate__fast">
-                        <img src="img/CoderHub.png" class="imagen-proyecto card-img-top p-3" alt="Proyecto 3"
-                            style="height:140px;object-fit:contain;">
+                    <div
+                        class="tarjeta-proyecto card h-100 shadow-sm animate__animated animate__fadeInUp animate__fast">
+                        <img src="img/SistemaGestion.webp" class="imagen-proyecto card-img-top p-3" alt="Proyecto 3">
                         <div class="cuerpo-proyecto card-body">
                             <h5 class="titulo-proyecto card-title">Sistema de Gestión</h5>
                             <p class="descripcion-proyecto card-text">Implementamos un sistema para la administración de
@@ -110,9 +110,9 @@
                     </div>
                 </div>
                 <div class="columna-proyecto col-md-6 col-lg-3">
-                    <div class="tarjeta-proyecto card h-100 shadow-sm animate__animated animate__fadeInUp animate__fast">
-                        <img src="img/CoderHubLogo.png" class="imagen-proyecto card-img-top p-3" alt="Proyecto 4"
-                            style="height:140px;object-fit:contain;">
+                    <div
+                        class="tarjeta-proyecto card h-100 shadow-sm animate__animated animate__fadeInUp animate__fast">
+                        <img src="img/PortalComunidad.webp" class="imagen-proyecto card-img-top p-3" alt="Proyecto 4">
                         <div class="cuerpo-proyecto card-body">
                             <h5 class="titulo-proyecto card-title">Portal de Comunidad</h5>
                             <p class="descripcion-proyecto card-text">Desarrollamos un portal web para compartir
@@ -179,7 +179,7 @@
                         <img src="img/TrevorPhilips.webp" class="imagen-perfil card-img-top" alt="Michael">
                         <div class="cuerpo-perfil card-body text-center">
                             <h5 class="titulo-perfil card-title">Trevor Phillips</h5>
-                            <p class="rol-perfil text-primary">desarrollo</p>
+                            <p class="rol-perfil text-primary">Desarrollador</p>
                             <p class="descripcion-perfil card-text">Experto en desarrollo de software, Trevor lidera el
                                 área tecnológica
                                 asegurando la calidad y el crecimiento de la plataforma CoderHub.</p>
@@ -250,8 +250,8 @@
         </div>
     </section>
 
+    <!-- Validación Bootstrap personalizada -->
     <script>
-        // Validación Bootstrap personalizada
         document.getElementById('formulario-contacto').addEventListener('submit', function (event) {
             var form = event.target;
             if (!form.checkValidity()) {
@@ -263,7 +263,7 @@
     </script>
 
 
-    <footer id="pie-pagina" class="bg-oscuro bg-dark text-blanco text-white py-4 mt-5">
+    <footer id="contacto-pie" class="bg-oscuro bg-dark text-blanco text-white py-4 mt-5">
         <div class="contenedor-pie container">
             <div class="fila-pie row align-items-center">
                 <div class="columna-contacto-pie col-md-6 mb-3 mb-md-0">
@@ -287,7 +287,7 @@
             </div>
             <div class="fila-copyright row mt-3">
                 <div class="columna-copyright col text-center">
-                    <small class="copyright">&copy; 2025 CoderHub. Todos los derechos reservados.</small>
+                    <small class="copyright">CoderHub.run - Iker A. Harnisch Narvaez</small>
                 </div>
             </div>
         </div>
